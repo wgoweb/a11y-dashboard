@@ -8112,7 +8112,7 @@ var route_regex_1 = __webpack_require__(/*! ./utils/route-regex */ "./node_modul
 
 function addBasePath(path) {
   // @ts-ignore variable is always a string
-  var p = "";
+  var p = "/a11y-dashboard";
   return path.indexOf(p) !== 0 ? p + path : path;
 }
 
